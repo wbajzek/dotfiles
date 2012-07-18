@@ -7,3 +7,6 @@
 [submodule "vim/bundle/prolog"]
 	path = vim/bundle/prolog
 	url = git://github.com/sandman0/prolog.vim.git
+[submodule "vim/bundle/nerdcommenter"]
+	path = vim/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
