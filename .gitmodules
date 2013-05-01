@@ -1,15 +1,36 @@
-[submodule "vim/bundle/solarized"]
-	path = vim/bundle/solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
 [submodule "vim/bundle/surround"]
 	path = vim/bundle/surround
 	url = git://github.com/tpope/vim-surround.git
-[submodule "vim/bundle/prolog"]
-	path = vim/bundle/prolog
-	url = git://github.com/sandman0/prolog.vim.git
 [submodule "vim/bundle/nerdcommenter"]
 	path = vim/bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "george-blockei"]
 	path = george-blockei
 	url = git@github.com:wbajzek/george-blockei.git
+[submodule "vim/bundle/ack.vim"]
+	path = vim/bundle/ack.vim
+	url = git@github.com:mileszs/ack.vim.git
+[submodule "vim/bundle/ctrlp.vim"]
+	path = vim/bundle/ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim.git
+[submodule "vim/bundle/fugitive.git"]
+	path = vim/bundle/fugitive.git
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "vim/bundle/indentLine.vim"]
+	path = vim/bundle/indentLine.vim
+	url = git@github.com:vim-scripts/indentLine.vim.git
+[submodule "vim/bundle/tComment.vim"]
+	path = vim/bundle/tComment.vim
+	url = git@github.com:vim-scripts/tComment.git
+[submodule "vim/bundle/vim-sensible.vim"]
+	path = vim/bundle/vim-sensible.vim
+	url = git@github.com:tpope/vim-sensible.git
+[submodule "vim/bundle/vim-ruby.vim"]
+	path = vim/bundle/vim-ruby.vim
+	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "monokai.terminal"]
+	path = monokai.terminal
+	url = git@github.com:stephenway/monokai.terminal.git
+[submodule "vim/bundle/vim-fugitive.vim"]
+	path = vim/bundle/vim-fugitive.vim
+	url = git@github.com:tpope/vim-fugitive.git
