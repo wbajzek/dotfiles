@@ -1,16 +1,19 @@
-filetype off
 call pathogen#infect()
+filetype off
 filetype plugin indent on
-
+filetype plugin on
 set nocompatible
 
 set modelines=0
 
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 
+set listchars=tab:▸\ ,eol:¬
+
+set number
 set encoding=utf-8
 set scrolloff=3
 set autoindent
@@ -55,5 +58,8 @@ nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
 syntax enable
-set background=light
-colorscheme solarized
+colorscheme monokai
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+autocmd BufWritePre * :%s/\s\+$//e
+let g:indentLine_color_term = 000
