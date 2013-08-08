@@ -11,6 +11,8 @@ olddir=~/dotfiles_old             # old dotfiles backup directory
 files="bashrc vimrc vim Xmodmap"    # list of files/folders to symlink in homedir
 
 ##########
+git submodule init
+git submodule update
 
 # create dotfiles_old in homedir
 echo "Creating $olddir for backup of any existing dotfiles in ~"
