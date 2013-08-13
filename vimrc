@@ -53,9 +53,13 @@ inoremap <right> <nop>
 nnoremap j gj
 nnoremap k gk
 
-inoremap <F1> <ESC>
-nnoremap <F1> <ESC>
-vnoremap <F1> <ESC>
+cabbrev > :vertical resize +30<CR>
+cabbrev < :vertical resize -30<CR>
+imap jk <C-[>
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
 
 syntax enable
 colorscheme monokai
