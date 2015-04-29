@@ -68,3 +68,4 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 " make Blaine happy
 autocmd BufWritePre * :%s/\s\+$//e
 let g:indentLine_color_term = 000
+set spell spelllang=en_us
