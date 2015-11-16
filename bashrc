@@ -5,3 +5,4 @@ export PLATFORM_CONFIG_DIR=~/platform/platform-provisioning/modules/platform/fil
 export AWS_REGION=us-east-1
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 set -o vi
+set editing-mode vi
