@@ -3,6 +3,7 @@ filetype off
 filetype plugin indent on
 filetype plugin on
 set nocompatible
+set clipboard=unnamed " use the system clipboard
 
 set modelines=0
 
