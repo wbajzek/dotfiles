@@ -3,6 +3,7 @@ export LESSOPEN='|~/.lessfilter %s'
 export PLATFORM_SOLR_HOME_DIR=~/platform/platform-provisioning/modules/solr/files/solr_home/
 export PLATFORM_CONFIG_DIR=~/platform/platform-client-configuration/clients
 export AWS_REGION=us-east-1
+export DISABLE_SPRING=1
 PATH=$PATH:$HOME/.rvm/bin:/Applications/VirtualBox/Contents/MacOS # Add RVM to PATH for scripting
 set -o vi
 set editing-mode vi
