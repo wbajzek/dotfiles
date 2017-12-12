@@ -62,6 +62,11 @@ map <c-k> <c-w>k
 map <c-l> <c-w>l
 map <c-h> <c-w>h
 
+ab paltform platform
+ab Paltform Platform
+ab affilation affiliation
+ab Affilation Affiliation
+
 syntax enable
 colorscheme monokai
 set runtimepath^=~/.vim/bundle/ctrlp.vim
