@@ -12,3 +12,4 @@ alias configlocal="cp config/redis.yml.sample config/redis.yml; cp config/mongoi
 
 export NVM_DIR="/Users/wbajzek/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
