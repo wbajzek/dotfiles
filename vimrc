@@ -43,6 +43,9 @@ set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85
 
+" generate sequence diagram
+nmap <unique> <leader>s <Plug>GenerateDiagram
+
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
