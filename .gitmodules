@@ -46,3 +46,6 @@
 [submodule "vim/bundle/vim-processing"]
 	path = vim/bundle/vim-processing
 	url = https://github.com/sophacles/vim-processing.git
+[submodule "vim/bundle/vim-solarized8"]
+	path = vim/bundle/vim-solarized8
+	url = https://github.com/lifepillar/vim-solarized8
