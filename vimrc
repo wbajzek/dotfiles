@@ -68,7 +68,7 @@ ab affilation affiliation
 ab Affilation Affiliation
 
 syntax enable
-colorscheme monokai
+colorscheme solarized8
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 autocmd FileType help setlocal nospell
@@ -78,3 +78,5 @@ autocmd BufReadPost quickfix setlocal nospell
 autocmd BufWritePre * :%s/\s\+$//e
 let g:indentLine_color_term = 000
 set spell spelllang=en_us
+
+set guifont=Menlo:h18
