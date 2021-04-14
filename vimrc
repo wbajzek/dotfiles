@@ -69,7 +69,6 @@ ab affilation affiliation
 ab Affilation Affiliation
 
 syntax enable
-colorscheme solarized8
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set wildignore+=*/build/*,*/.bower-cache/*/*,*/node_modules/*,*/tmp/*,*.so,*.swp,*.zip
 
