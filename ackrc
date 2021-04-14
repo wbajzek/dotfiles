@@ -1,0 +1,8 @@
+--ignore-dir=.bower-cache
+--ignore-dir=build
+--ignore-dir=dist
+--ignore-dir=rvm-vagrant-sync
+--ignore-dir=vender
+--ignore-dir=solr
+--ignore-dir=coverage
+--ignore-dir=vendor
