@@ -1,0 +1,56 @@
+name: dev
+windows:
+  - api:
+      layout: d048,176x48,0,0[176x36,0,0,0,176x11,0,37,9]
+      root: ~/platform/platform-api
+      panes:
+        - vim .
+        - zsh
+  - etl:
+      layout: d048,176x48,0,0[176x36,0,0,0,176x11,0,37,9]
+      root: ~/platform/platform-api-etl
+      panes:
+        - vim .
+        - zsh
+  - admin:
+      layout: d048,176x48,0,0[176x36,0,0,0,176x11,0,37,9]
+      root: ~/platform/platform-api-admin
+      panes:
+        - vim .
+        - zsh
+  - search:
+      layout: d048,176x48,0,0[176x36,0,0,0,176x11,0,37,9]
+      root: ~/platform/platform-search
+      panes:
+        - vim .
+        - zsh
+  - costume:
+      layout: d048,176x48,0,0[176x36,0,0,0,176x11,0,37,9]
+      root: ~/platform/costume
+      panes:
+        - vim .
+        - zsh
+  - config:
+      layout: d048,176x48,0,0[176x36,0,0,0,176x11,0,37,9]
+      root: ~/platform/platform-configuration
+      panes:
+        - vim .
+        - zsh
+  - prov:
+      layout: d048,176x48,0,0[176x36,0,0,0,176x11,0,37,9]
+      root: ~/platform/platform-provisioning
+      panes:
+        - vim .
+        - zsh
+  - auth:
+      layout: d048,176x48,0,0[176x36,0,0,0,176x11,0,37,9]
+      root: ~/platform/platform-auth
+      panes:
+        - vim .
+        - zsh
+  - client:
+      layout: d048,176x48,0,0[176x36,0,0,0,176x11,0,37,9]
+      root: ~/platform/platform-client-configuration
+      panes:
+        - vim .
+        - zsh

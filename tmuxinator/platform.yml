@@ -1,0 +1,19 @@
+# ~/.tmuxinator/platform.yml
+<%-
+require 'platform-configuration'
+client = Platform::Configuration::Client.new(@args[0])
+env = @args[1]
+-%>
+
+name: <%= [client, env].join('-') %>
+root: ~/
+
+windows:
+<%- %i(web util solr mongo).each{|role| -%>
+  - <%= role %>:
+      layout: even-vertical
+      panes:
+      <%- client.servers_for(role: role, env: env).each {|server| -%>
+        - ssh wbajzek@<%= server %>
+      <%- } -%>
+<%- } -%>
