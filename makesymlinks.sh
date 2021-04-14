@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="zshrc bashrc lessfilter vimrc vim Xresources Xmodmap tmux.conf"    # list of files/folders to symlink in homedir
+files="zshrc bashrc lessfilter vimrc vim Xresources Xmodmap tmuxinator tmux.conf"    # list of files/folders to symlink in homedir
 
 ##########
 git submodule init

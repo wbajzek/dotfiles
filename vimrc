@@ -54,8 +54,6 @@ inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
-nnoremap j gj
-nnoremap k gk
 
 cabbrev > :vertical resize +30<CR>
 cabbrev < :vertical resize -30<CR>
@@ -73,6 +71,7 @@ ab Affilation Affiliation
 syntax enable
 colorscheme solarized8
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+set wildignore+=*/build/*,*/.bower-cache/*/*,*/node_modules/*,*/tmp/*,*.so,*.swp,*.zip
 
 autocmd FileType help setlocal nospell
 autocmd BufReadPost quickfix setlocal nospell
